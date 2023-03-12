@@ -62,7 +62,7 @@ public class DigitalMarineApplication extends JFrame implements ActionListener {
 	
 	static JSlider b;
 
-	public DigitalMarineApplication() {
+	public abstract DigitalMarineApplication() {
 
 		frame = new JFrame("Blue Maritime Digital Journal App ");
 
@@ -131,7 +131,7 @@ public class DigitalMarineApplication extends JFrame implements ActionListener {
 			
 	}
 
-	private JPanel addButtons() {
+	private abstract JPanel addButtons() {
 
 		/**
 		 * Buttons are added to the UI in two ways 1) by using a menu tab and 2) by placing buttons directly in the main page 
@@ -347,7 +347,7 @@ public class DigitalMarineApplication extends JFrame implements ActionListener {
 		}
 	}
 
-	private ImageFrame displayImage(String imageFile) {
+	private abstract ImageFrame displayImage(String imageFile) {
 		ImageFrame page = new ImageFrame("Predictions high CHL locations high biomass blooms", imageFile);
 		page.setVisible(true);
 		return page;

@@ -19,12 +19,7 @@ public class ConnectionDBTest {
 
 	Connection connection;
 
-	@Before
-	public void before() {
-
-	}
-
-	@After
+		@After
 	public void after() {
 
 		// ConnectionDB.

@@ -62,7 +62,7 @@ public class DigitalMarineApplication extends JFrame implements ActionListener {
 	
 	static JSlider b;
 
-	public abstract DigitalMarineApplication() {
+	public DigitalMarineApplication() {
 
 		frame = new JFrame("Blue Maritime Digital Journal App ");
 
